@@ -20,7 +20,7 @@ routine:
  
         - name: Planks
           sets: 30, 30, 30
-          incr: 5, units, 0 reps
+          incr: 5 units, 0 reps
           unit: seconds
 
 
