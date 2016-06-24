@@ -1,0 +1,43 @@
+name: Marcus 5x5 (modified Stronglifts 5x5)
+
+default_sets: 5, 5, 5, 5, 5
+default_incr: 2.5 units, 0 reps
+default_unit: kgs
+
+routine:
+- day:
+    - name: Workout A
+    - exercises:
+        - name: Squats
+
+        - name: Bench press
+
+        - name: Pendlay rows
+
+        - name: Dips
+          sets: 10, 10, 10
+          incr: 0 units, 1 reps
+ 
+        - name: Planks
+          sets: 30, 30, 30
+          incr: 5, units, 0 reps
+          unit: seconds
+
+
+- day:
+    - name: Workout B
+    - exercises:
+        - name: Squats
+
+        - name: Overhead press
+
+        - name: Deadlifts
+
+        - name: Chin-ups
+          sets: 10, 10, 10
+          incr: 0 units, 1 reps
+
+        - name: Seated calf raises
+          sets: 8, 8
+          incr: 5 units, 0 reps
+          unit: lbs
