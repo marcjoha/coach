@@ -1,4 +1,4 @@
-name: Marcus 5x5 (modified Stronglifts 5x5)
+name: Marcus modified Stronglifts 5x5
 
 defaults:
   sets: 5, 5, 5, 5, 5
@@ -30,12 +30,13 @@ routine:
       - name: Overhead press
 
       - name: Deadlifts
+        sets: 5
 
       - name: Chin-ups
         sets: 10, 10, 10
         incr: 0 units, 1 reps
 
-      - name: Seated calf raises
-        sets: 8, 8
+      - name: Planks
+        sets: 30, 30, 30
         incr: 5 units, 0 reps
-        unit: lbs
+        unit: seconds
