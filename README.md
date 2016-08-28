@@ -1,4 +1,4 @@
-# musle-couch
+# musle-coach
 
 ## out of scope
 
