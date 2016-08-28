@@ -1,0 +1,65 @@
+name: Phrak's Greyskull LP
+
+defaults:
+  type: lift
+  sets: 5, 5, AMRAP
+  rest: 90
+  incr: 1.25
+  unit: kgs
+
+routine:
+  - name: Day 1
+    exercises:
+      - name: Overhead Press
+
+      - name: Chin-ups
+
+      - name: Squats
+        incr: 2.5
+
+  - name: Day 2
+    exercises:
+      - name: Bench Press
+
+      - name: Pendlay rows
+
+      - name: Deadlifts
+        sets: AMRAP
+        incr: 2.5
+
+  - name: Day 3
+    exercises:
+      - name: Overhead Press
+
+      - name: Chin-ups
+
+      - name: Squats
+        incr: 2.5
+
+  - name: Day 4
+    exercises:
+      - name: Bench Press
+
+      - name: Pendlay rows
+
+      - name: Squats
+        incr: 2.5
+
+  - name: Day 5
+    exercises:
+      - name: Overhead Press
+
+      - name: Chin-ups
+
+      - name: Deadlifts
+        sets: AMRAP
+        incr: 2.5
+
+  - name: Day 6
+    exercises:
+      - name: Bench Press
+
+      - name: Pendlay rows
+
+      - name: Squats
+        incr: 2.5

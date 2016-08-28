@@ -1,27 +1,32 @@
 import yaml
 from voluptuous import Schema, Required, Any, Match, Optional
 
-ValidSets = Any(int, Match(r'^(\d+(, \d+)*)$'))
-ValidUnit = Any("kgs", "lbs", "seconds")
+ValidType = Any("lift", "hold")
+ValidSets = Any(int, "AMRAP", Match(r'^((\d|AMRAP)+(, (\d|AMRAP)+)*)$'))
+ValidUnit = Any("kgs", "lbs")
 
 schema = Schema({
   Required("name"): str,
   Required("defaults"): {
+    Required("type"): ValidType,
     Required("sets"): ValidSets,
-    Required("incr"): str,
+    Required("rest"): int,
+    Required("incr"): Any(int, float),
     Required("unit"): ValidUnit
   },
   Required("routine"): [{
     Required("name"): str,
     Required("exercises"): [{
       Required("name"): str,
+      Optional("type"): ValidType,
       Optional("sets"): ValidSets,
-      Optional("incr"): str,
+      Optional("incr"): Any(int, float),
       Optional("unit"): ValidUnit
     }]
   }]
 })
 
-program = yaml.load(open('program-marcus-5x5.yaml', 'r'))
+print schema(yaml.load(open('program-marcus-5x5.yaml', 'r')))
+print schema(yaml.load(open('program-sl-5x5.yaml', 'r')))
+print schema(yaml.load(open('program-phraks-greyskull-lp.yaml', 'r')))
 
-print schema(program)

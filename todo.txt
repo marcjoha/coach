@@ -1,8 +1,0 @@
-# todo
-
-* kom på ett bra namn
-* vara generiskt och tillåta så många typer av träningsprogram som möjligt
-* ska vara flexibelt, speciellt under passen
-* ska gå att kombinera kg och lbs i ett och samma program
-* alla kurver ska kunna ha trendlinjer
-* 

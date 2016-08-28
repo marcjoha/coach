@@ -1,4 +1,4 @@
-name: Marcus modified Stronglifts 5x5
+name: Stronglifts 5x5
 
 defaults:
   type: lift
@@ -16,14 +16,6 @@ routine:
 
       - name: Pendlay rows
 
-      - name: Dips
-        sets: 20, 20, 20
-        incr: 0
-
-      - name: Planks
-        type: hold
-        sets: 30, 30, 30
-
   - name: Workout B
     exercises:
       - name: Squats
@@ -32,11 +24,3 @@ routine:
 
       - name: Deadlifts
         sets: 5
-
-      - name: Chin-ups
-        sets: 10, 10, 10
-        incr: 0
-
-      - name: Planks
-        type: hold
-        sets: 30, 30, 30
