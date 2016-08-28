@@ -26,7 +26,7 @@ schema = Schema({
   }]
 })
 
-print schema(yaml.load(open('program-marcus-5x5.yaml', 'r')))
-print schema(yaml.load(open('program-sl-5x5.yaml', 'r')))
-print schema(yaml.load(open('program-phraks-greyskull-lp.yaml', 'r')))
+print schema(yaml.load(open('programs/marcus-5x5.yaml', 'r')))
+print schema(yaml.load(open('programs/stronglifts-5x5.yaml', 'r')))
+print schema(yaml.load(open('programs/phraks-greyskull-lp.yaml', 'r')))
 
