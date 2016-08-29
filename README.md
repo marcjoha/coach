@@ -1,6 +1,6 @@
 # musle-coach
 
-Webapp for logging workouts based on Bootstrap, Handlebars and Firebase. 
+Webapp for logging workouts based on Material Design Lite, Handlebars.js and Firebase. 
 
 ## out of scope
 
