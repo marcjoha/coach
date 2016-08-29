@@ -20,6 +20,7 @@ schema = Schema({
       Required("name"): str,
       Optional("type"): ValidType,
       Optional("sets"): ValidSets,
+      Optional("rest"): int,
       Optional("incr"): Any(int, float),
       Optional("unit"): ValidUnit
     }]
