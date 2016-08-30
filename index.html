@@ -12,6 +12,10 @@
       .mdl-layout__drawer-button {
         line-height: 54px;
       }
+
+      .content-grid {
+        max-width: 500px;
+      }
     </style>
   </head>
 <body>
@@ -38,54 +42,58 @@
         <a class="mdl-navigation__link" href=""><i class="material-icons">history</i> history</a>
       </nav>
     </div>
+
+
     <main class="mdl-layout__content">
-      <div class="page-content">
-        <!-- Your content goes here -->
-
-<section class="section--center mdl-grid mdl-grid--no-spacing">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
 
 
-<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-  <thead>
-    <tr>
-      <th class="mdl-data-table__cell--non-numeric">Material</th>
-      <th>Quantity</th>
-      <th>Unit price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
-      <td>25</td>
-      <td>$2.90</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-      <td>50</td>
-      <td>$1.25</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-      <td>10</td>
-      <td>$2.35</td>
-    </tr>
-  </tbody>
-</table>
+      <div class="content-grid mdl-grid">
+        <div class="mdl-cell">
+          
 
-
-</div>
-
-
-</section>
+          <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Exercises</th>
+                <th>Set</th>
+                <th>Total weight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Squats</td>
+                <td>25</td>
+                <td>$2.90</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Bench press</td>
+                <td>50</td>
+                <td>$1.25</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Deadlift</td>
+                <td>10</td>
+                <td>$2.35</td>
+              </tr>
+            </tbody>
+          </table>
 
 
 
 
 
 
+
+
+
+
+
+
+        </div>
       </div>
+
     </main>
+
     <footer class="mdl-mini-footer">
       <div class="mdl-mini-footer__left-section">
         <div class="mdl-logo">Muscle Coach</div>
@@ -95,6 +103,9 @@
         </ul>
       </div>
     </footer>
+
+
   </div>
 </body>
 </html>
+
